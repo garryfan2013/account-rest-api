@@ -35,7 +35,7 @@ function initCategories() {
   return Promise.all(promiseArray);
 }
 
-var channels = ['支付宝','微信支付','信用卡','现金','银联卡'];
+var channels = ['支付宝','微信支付','招行信用卡','现金','招行借记卡','农行信用卡'];
 function initChannels() {
   var promiseArray = [];
 
