@@ -37,6 +37,6 @@ var authenticateUser = function (username, password) {
 }
 
 module.exports = {
-  authticateUser: authticateUser,
+  authenticateUser: authenticateUser,
   validateToken: validateToken
 }
