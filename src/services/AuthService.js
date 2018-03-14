@@ -30,6 +30,7 @@ var authenticateUser = function (username, password) {
     if (true/*users[0].password === password*/) {
       return generateJWT(users[0]);
     } else {
+      console.log("password not correct!");
       throw new Error('Incorrect password!');
     }
   });
