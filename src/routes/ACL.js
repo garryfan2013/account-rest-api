@@ -46,7 +46,7 @@ var validateUser = function(req, res, next) {
   }
 }
 
-var userVlidatePolicy = {
+var userValidatePolicy = {
   handle: validateUser
 }
 
