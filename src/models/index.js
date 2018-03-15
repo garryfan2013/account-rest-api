@@ -36,7 +36,7 @@ function initCategories() {
 }
 
 var channels = ['支付宝','微信支付','现金','银联卡','ICBC信用卡','ICBC借记卡','CMB信用卡','CMB借记卡'];
->>>>>>> Add ICBC Card support
+
 function initChannels() {
   var promiseArray = [];
 
